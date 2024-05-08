@@ -108,6 +108,16 @@
         </repository>
     </repositories>
 
+
+    <dependencies>
+        <!--开启cas server的rest支持-->
+        <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-support-rest-authentication</artifactId>
+            <version>${cas.version}</version>
+        </dependency>
+    </dependencies>
+
     <profiles>
         <profile>
             <activation>
